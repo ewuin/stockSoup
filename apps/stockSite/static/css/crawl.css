@@ -1,0 +1,77 @@
+#wrapper{
+  width:960px;
+  margin:auto;
+  padding:6px;
+
+}
+
+h3{
+  margin-top:8px;
+}
+
+
+.spiderTable{
+  border:1px solid black;
+  margin: 6px auto 6px auto;
+  width:850px;
+  text-align: center;
+}
+
+tr{
+  border: 1px solid black;
+  margin:5px;
+  width: 100%;
+}
+
+td{
+  padding:25px;
+  border-collapse:collapse;
+  text-align: center;
+}
+
+tr>th{
+  text-align: center;
+}
+
+.headline-cell{
+  text-overflow: ellipsis;
+  width:70%;
+  padding:5px;
+  text-align: left;
+}
+
+.date-cell{
+  width:13%;
+  padding:5px;
+  text-align: justify;
+  margin:4px;
+
+}
+
+.sentiment-cell{
+  padding:5px;
+  width:17%;
+}
+
+.Bullish{
+  background-color: #00cc99;
+  font-weight: bold;
+}
+
+.Bearish{
+  background-color:  #ff9999;
+  font-weight: bold;
+}
+
+.Neutral{
+  background-color: #d0d0e1;
+  font-weight: bold;
+}
+
+/*#stockPlot{
+   margin:6px;
+   width:900px;
+   height:750px;
+   border:1px solid black;
+
+}*/
